@@ -6,16 +6,6 @@
   "scripts": {
     "build": "ncc build src/action.js -o dist"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/colbyfayock/demo-action-pull-request.git"
-  },
-  "author": "Colby Fayock <hello@colbyfayock.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/colbyfayock/demo-action-pull-request/issues"
-  },
-  "homepage": "https://github.com/colbyfayock/demo-action-pull-request#readme",
   "dependencies": {},
   "devDependencies": {
     "@actions/core": "^1.2.6",
