@@ -1,0 +1,24 @@
+name: "PR Thank You Action"
+description: "Demo for tutorial"
+author: "Colby Fayock <hello@colbyfayock.com>"
+
+inputs:
+  GITHUB_TOKEN:
+    description: "GitHub token"
+    required: true
+  TENOR_TOKEN:
+    description: "Tenor API token"
+    required: true
+  message:
+    description: "Message that gets sent to new pull requests"
+    default: "Thank you for submitting a pull request! We will try to review this as soon as we can."
+    required: false
+  searchTerm:
+    description: "Term that gets search for the Tenor API"
+    default: "thank you"
+    required: false
+
+
+runs:
+  using: "node12"
+  main: "dist/index.js"
