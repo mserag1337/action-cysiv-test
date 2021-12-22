@@ -21,4 +21,4 @@ inputs:
 
 runs:
   using: "node12"
-  main: "gh_actions/validate_cim/dist/index.js"
+  main: "xgh_actions/validate_cim/dist/index.js"
