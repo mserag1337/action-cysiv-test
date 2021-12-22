@@ -44,3 +44,6 @@ jobs:
           ls
           cat file_1.json
           
+      - name: test node
+        run: node temp.js
+        
