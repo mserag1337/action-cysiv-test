@@ -10,7 +10,7 @@
         "elastic_type": {"type": "keyword"}
     },
     "field_3": {
-        "data_type": "string",
+        "data_type": "date",
         "supports_array": false,
         "elastic_type": {"type": "keyword"}
     },
