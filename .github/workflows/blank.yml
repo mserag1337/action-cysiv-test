@@ -45,5 +45,5 @@ jobs:
           cat file_1.json
           
       - name: test node
-        run: node temp.js
+        run: node tempx.js
         
