@@ -45,6 +45,6 @@ jobs:
           ls
           cat file_1.json
           
-      - name: test node
+      - uses: actions/core
         run: node tempx.js
         
