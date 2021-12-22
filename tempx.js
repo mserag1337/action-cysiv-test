@@ -16,7 +16,8 @@ for (let i = 0; i < originalKeys.length; i++) {
     const updatedCIMObject = updatedCIM[key];
     if (originalCIMObject['data_type'] != updatedCIMObject['data_type']) {
         console.log(`field \'${key}\' changed from \'${originalCIMObject['data_type']}\' to \'${updatedCIMObject['data_type']}\'`)
-    } else if (originalCIMObject['supports_array'] != updatedCIMObject['supports_array']) {
+    }
+    if (originalCIMObject['supports_array'] != updatedCIMObject['supports_array']) {
         console.log(`field \'${key}\' changed \'supports_array\' from \'${originalCIMObject['supports_array']}\' to \'${updatedCIMObject['supports_array']}\'`)
     }
 }
