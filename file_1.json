@@ -14,7 +14,7 @@
         }
     },
     "field_1974": {
-        "data_type": "string",
+        "data_type": "int",
         "supports_array": true,
         "elastic_type": {
             "type": "keyword"
@@ -386,7 +386,7 @@
     },
     "field_2027": {
         "data_type": "string",
-        "supports_array": true,
+        "supports_array": false,
         "elastic_type": {
             "type": "keyword"
         }
@@ -994,7 +994,7 @@
         }
     },
     "field_2114": {
-        "data_type": "string",
+        "data_type": "date",
         "supports_array": true,
         "elastic_type": {
             "type": "keyword"
