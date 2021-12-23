@@ -4,10 +4,14 @@ const fs = require('fs');
 async function run() {
     console.log('Az3rinaaaaaaaaaaaaa33333333333333');
     console.log(__filename);
-    let originalCIMRawdata = fs.readFileSync('../../../file_1.json');
+    console.log(__dirname);
+    fs.readdirSync('./').forEach(file => {
+        console.log(file);
+      });
+    let originalCIMRawdata = fs.readFileSync('./file_1.json');
     let originalCIM = JSON.parse(originalCIMRawdata);
 
-    let updatedCIMRawdata = fs.readFileSync('../../../file_1.latest.json');
+    let updatedCIMRawdata = fs.readFileSync('./file_1.latest.json');
     let updatedCIM = JSON.parse(updatedCIMRawdata);
 
     var originalKeys = Object.keys(originalCIM);
