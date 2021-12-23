@@ -45,7 +45,7 @@ jobs:
           ls
           cat file_1.json
       
-      - uses: ./
+      - uses: ./gh_actions/validate_cim/
       # - name: test node
       #   run: node temp.js
         

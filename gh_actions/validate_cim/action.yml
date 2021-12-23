@@ -1,0 +1,6 @@
+name: "Data dictionary Action"
+description: "validate data dictionary changes won't break bigquery schema"
+
+runs:
+  using: "node12"
+  main: "dist/index.js"
