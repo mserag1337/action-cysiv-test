@@ -403,6 +403,7 @@ const fs = __nccwpck_require__(747);
 
 async function run() {
     console.log('Az3rinaaaaaaaaaaaaa33333333333333');
+    console.log(__filename);
     let originalCIMRawdata = fs.readFileSync('file_1.json');
     let originalCIM = JSON.parse(originalCIMRawdata);
 
