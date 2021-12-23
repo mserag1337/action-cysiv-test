@@ -5,12 +5,12 @@
         "elastic_type": {"type": "keyword"}
     },
     "field_2": {
-        "data_type": "int",
+        "data_type": "string",
         "supports_array": false,
         "elastic_type": {"type": "keyword"}
     },
     "field_3": {
-        "data_type": "date",
+        "data_type": "int",
         "supports_array": false,
         "elastic_type": {"type": "keyword"}
     },
