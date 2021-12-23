@@ -1,7 +1,0 @@
-name: "PR Thank You Action"
-description: "Demo for tutorial"
-author: "Colby Fayock <hello@colbyfayock.com>"
-
-runs:
-  using: "node12"
-  main: "gh_actions/validate_cim/dist/index.js"
