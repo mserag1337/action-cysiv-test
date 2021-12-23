@@ -16,7 +16,7 @@
     },
     "field_4": {
         "data_type": "boolean",
-        "supports_array": false,
+        "supports_array": true,
         "elastic_type": {"type": "keyword"}
     },
     "field_5": {
