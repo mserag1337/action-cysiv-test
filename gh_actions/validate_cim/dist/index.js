@@ -434,7 +434,11 @@ async function run() {
     }
 
     if (hasErrors) {
-        core.setFailed(`Action failed with these errors ${fieldNameErrors} / ${supportArrayErrors}`);
+        for (let index = 0; index < fieldNameErrors.length; index++) {
+            const element = fieldNameErrors[index];
+            core.setFailed(element);
+        }
+        // core.setFailed(`Action failed with these errors ${fieldNameErrors} / ${supportArrayErrors}`);
     }
 }
 
